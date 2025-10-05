@@ -16,50 +16,72 @@ const progressBar = document.getElementById("progress");
 // Quiz questions
 const quizQuestions = [
   {
-    question: "What is the capital of France?",
+    question: "Which of the following is a correct identifier in C++?",
     answers: [
-      { text: "London", correct: false },
-      { text: "Berlin", correct: false },
-      { text: "Paris", correct: true },
-      { text: "Madrid", correct: false },
+      { text: "7var_name", correct: false },
+      { text: "$var_name", correct: false },
+      { text: "VAR_1234", correct: true },
+      { text: " 7var_name", correct: false },
     ],
   },
   {
-    question: "Which planet is known as the Red Planet?",
+    question: "Which of the following is not a type of Constructor in C++?",
     answers: [
-      { text: "Venus", correct: false },
-      { text: "Mars", correct: true },
-      { text: "Jupiter", correct: false },
-      { text: "Saturn", correct: false },
+      { text: "Copy constructo", correct: false },
+      { text: "Friend constructor", correct: true },
+      { text: "Parameterized constructor", correct: false },
+      { text: "Default constructor", correct: false },
     ],
   },
   {
-    question: "What is the largest ocean on Earth?",
+    question: "Which is more effective while calling the C++ functions?",
     answers: [
-      { text: "Atlantic Ocean", correct: false },
-      { text: "Indian Ocean", correct: false },
-      { text: "Arctic Ocean", correct: false },
-      { text: "Pacific Ocean", correct: true },
+      { text: "call by object", correct: false },
+      { text: "call by pointer", correct: false },
+      { text: "call by value", correct: false },
+      { text: "call by reference", correct: true },
     ],
   },
   {
-    question: "Which of these is NOT a programming language?",
+    question: "Which of the following symbol is used to declare the preprocessor directives in C++?",
     answers: [
-      { text: "Java", correct: false },
-      { text: "Python", correct: false },
-      { text: "Banana", correct: true },
-      { text: "JavaScript", correct: false },
+      { text: "$", correct: false },
+      { text: "*", correct: false },
+      { text: "#", correct: true },
+      { text: "^", correct: false },
     ],
   },
   {
-    question: "What is the chemical symbol for gold?",
+    question: "Which of the following type is provided by C++ but not C?",
     answers: [
-      { text: "Go", correct: false },
-      { text: "Gd", correct: false },
-      { text: "Au", correct: true },
-      { text: "Ag", correct: false },
+      { text: "double", correct: false },
+      { text: "float", correct: false },
+      { text: "bool", correct: true },
+      { text: "int", correct: false },
     ],
   },
+
+  {
+    question: "Which of the following is the default return value of functions in C++?",
+    answers: [
+      { text: "char", correct: false },
+      { text: "int", correct: true },
+      { text: "float", correct: false },
+      { text: "void", correct: false },
+    ],
+  },
+
+  {
+    question: "Which operator is having the highest precedence?",
+    answers: [
+      { text: "equality", correct: false },
+      { text: "unary", correct: false },
+      { text: "shift", correct: false },
+      { text: "postfix", correct: true },
+    ],
+  },
+
+  
 ];
 
 // Quiz STATE VARS

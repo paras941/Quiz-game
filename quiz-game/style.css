@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #f5efe6; 
+    background-color: #a961e8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body{
 .container{
     background-color: white;
     border-radius: 1rem;
-    box-shadow: 0 10px 30px black;
+    box-shadow: 10px 20px 30px black;
     max-width: 600px;
     overflow: hidden;
     position: relative;
@@ -41,7 +41,8 @@ body{
 }
 
 #start-screen p{
-    color: #666;
+    /* color: #666; */
+    color: black;
     font-size: 1.1rem;
     margin-bottom: 20px;
 }
@@ -89,7 +90,7 @@ body{
 
 .answer-btn.correct{
     background-color: #e6fff0;
-    border-color: lightgreen;
+    border-color: lightblue;
     color: lightblue;
 }
 
@@ -153,5 +154,5 @@ button{
 }
 
 button:hover{
-    background-color: rgb(159, 81, 81);
+    background-color:lightcoral;
 }
