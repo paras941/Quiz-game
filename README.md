@@ -8,9 +8,9 @@ It tests your programming knowledge by asking multiple-choice questions and give
 🏗️ Project Structure
 
 📁 Quiz-Game
- ┣ 📜 index.html      → Structure of the quiz app
- ┣ 📜 style.css       → Styling and layout
- ┗ 📜 script.js       → Quiz logic and interactivity
+ ┣ 📜 index.html      → Structure of the quiz app.
+ ┣ 📜 style.css       → Styling and layout.
+ ┗ 📜 script.js       → Quiz logic and interactivity.
 
  🚀 How It Works
 1. Start Screen
